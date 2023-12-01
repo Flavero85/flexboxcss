@@ -42,6 +42,16 @@ h1{
     color: rgb(43, 42, 42);
 }
 
+.banner img{
+    display: inline-block;
+    object-fit: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 3% 38% 3%;
+    max-height: 100%;
+    background-position: 100%;
+}
+
 img{
     max-width: 100%;
     display: block;
@@ -57,4 +67,13 @@ img{
 .flex>div{
     flex: 200px;
     margin: 10px 10px;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(73, 72, 72);
+    padding: 20px;
+    align-items: normal;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
